@@ -182,7 +182,7 @@ a {
 }
 
 .second-section {
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 .second-list {
@@ -217,25 +217,98 @@ a {
   line-height: 1.142;
 }
 
-.second-to-section {
-  background-color: #e5e5e5;
-}
-
 .second-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
 }
 
+.foto-section {
+  background-color: #fff;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
 .second-big-title {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
+  padding-bottom: 50px;
+}
+
+.second-item {
+  display: flex;
+  margin-top: 0;
+  padding-bottom: 94px;
+}
+
+.second-item .item {
+  margin-right: 30px;
+}
+
+.second-item .item:last-child {
+  margin-right: 0;
 }
 
 .tretii-section {
   background-color: #f5f4fa;
+}
+
+.tretii-div {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  align-items: center;
+}
+
+.tretii-section h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 94px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.tretii-list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 94px;
+  align-items: center;
+}
+
+.team-item {
+  margin-right: 30px;
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+.team-item:last-child {
+  margin-right: 0;
+}
+
+.name-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.name-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .name-title {
@@ -256,10 +329,6 @@ h3 {
 
 p {
   color: var(--primery-text-color);
-}
-
-.konec {
-  background-color: #2f303a;
 }
 
 .primery-main {
@@ -292,6 +361,15 @@ p {
 
 .konec {
   color: #fff;
+  background-color: #2f303a;
+}
+
+.konec-div {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  padding-top: 60px;
 }
 
 address {
@@ -305,4 +383,33 @@ address {
 .ulica {
   font-size: 14px;
   line-height: 1.714;
+  padding-top: 20px;
+}
+
+.link-info {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-top: 9px;
+}
+
+.link-info .link {
+  display: inline-block;
+  color: var(--primery-text-color);
+  padding-top: 9px;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.link-info li {
+  padding-top: 9px;
+}
+
+.link-info .link:hover,
+.link-info .link:focus {
+  color: var(--logo-color);
+}
+
+footer {
+  padding-bottom: 60px;
 }
