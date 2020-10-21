@@ -14,7 +14,8 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 :root {
@@ -46,6 +47,10 @@ a {
 }
 
 .header-navi {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
   background-color: #fff;
 }
 
@@ -73,6 +78,10 @@ a {
 }
 
 .nav {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
   display: flex;
   align-items: center;
 }
@@ -80,6 +89,7 @@ a {
 .site-navi {
   display: flex;
   margin-left: 93px;
+  padding-left: 0;
 }
 
 .main-nav {
@@ -332,25 +342,90 @@ p {
 }
 
 .primery-main {
-  background-color: #e5e5e5;
+  background-color: #fff;
+  border: 1px solid #ececec;
 }
+
+.primery-div {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-list {
+  display: flex;
+  padding-left: 15;
+  padding-top: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+.main-list li {
+  margin-right: 8px;
+}
+
+.main-list li:last-child {
+  margin-right: 0;
+}
+
 .main-list-filtr {
+  width: 128px;
+  height: 38px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   background-color: #f5f4fa;
   color: var(--primery-title-color);
+  border: transparent;
+  align-items: center;
+}
+
+.div-foto {
+  width: 1230px;
+}
+
+.main-foto {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+
+.main-foto li {
+  margin-right: 30px;
+  margin-top: 50px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.main-foto li:nth-child(3n) {
+  margin-right: 0;
 }
 
 .tovar {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .put-tovara {
   font-size: 16px;
   line-height: 1.875;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .main-list-filtr:hover,
