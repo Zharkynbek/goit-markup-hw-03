@@ -128,11 +128,10 @@ a {
 
 .link-type {
   display: flex;
-}
-
-.link-type {
-  display: flex;
   margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .link-type .item {
