@@ -117,8 +117,10 @@ a {
 }
 
 .site-navi .link {
-  width: 49px;
-  height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
 }
 
 .site-navi .link:hover,
@@ -179,6 +181,13 @@ a {
   margin-top: 30px;
 }
 
+.primery-div {
+  width: 1230px;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .primery-title {
   font-weight: 900;
   font-size: 44px;
@@ -192,13 +201,13 @@ a {
 
 .second-section {
   background-color: #fff;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .second-list {
   display: flex;
   margin-top: 0;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .second-list li {
@@ -237,6 +246,7 @@ a {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 94px;
   margin: auto;
 }
 
@@ -253,7 +263,7 @@ a {
 .second-item {
   display: flex;
   margin-top: 0;
-  padding-bottom: 94px;
+  padding-inline-start: 0;
 }
 
 .second-item .item {
@@ -266,6 +276,7 @@ a {
 
 .tretii-section {
   background-color: #f5f4fa;
+  padding-bottom: 94px;
 }
 
 .tretii-div {
@@ -292,7 +303,6 @@ a {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 94px;
   align-items: center;
 }
 
@@ -396,7 +406,8 @@ p {
 
 .main-foto li {
   margin-right: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
+  padding-bottom: 20px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
@@ -436,6 +447,8 @@ p {
 .konec {
   color: #fff;
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .konec-div {
@@ -458,19 +471,18 @@ address {
   font-size: 14px;
   line-height: 1.714;
   padding-top: 20px;
+  padding-bottom: 0;
+  border-bottom: 0px;
 }
 
 .link-info {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  padding-top: 9px;
 }
 
 .link-info .link {
-  display: inline-block;
   color: var(--primery-text-color);
-  padding-top: 9px;
   font-size: 14px;
   line-height: 1.714;
 }
@@ -482,8 +494,4 @@ address {
 .link-info .link:hover,
 .link-info .link:focus {
   color: var(--logo-color);
-}
-
-footer {
-  padding-bottom: 60px;
 }
