@@ -84,7 +84,8 @@ a {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   align-items: center;
 }
@@ -357,6 +358,7 @@ p {
 .primery-main {
   background-color: #fff;
   border: 1px solid #ececec;
+  padding-top: 100px;
 }
 
 .primery-div {
@@ -370,7 +372,6 @@ p {
 .main-list {
   display: flex;
   padding-left: 15;
-  padding-top: 100px;
   margin-top: 0;
   margin-bottom: 0;
   justify-content: center;
